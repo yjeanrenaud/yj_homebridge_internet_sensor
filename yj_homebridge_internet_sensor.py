@@ -123,7 +123,7 @@ class server_handler(BaseHTTPRequestHandler):
 #end class server_handler
 
 class server_thread(threading.Thread):#oop ftw
-
+	global port
 	def __init__(self,port):
 		threading.Thread.__init__(self)
 		self.port = port
