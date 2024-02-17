@@ -28,7 +28,7 @@ obviously, you may also supply the script with the port for the HTTP server to b
 `@reboot screen -dmS yjhbinets python3 /FULL/PATH/TO/SCRIPT/yj_homebridge_internet_sensor.py 99`
 
 # Apple HomeKit / Smart Home integration
-If you want to use it in your Apple HomeKit smart home, use [homebridge](https://www.homebridge.org) and the [homebridge-http-contact-sensor plugin](ttps://github.com/cyakimov/homebridge-http-contact-sensor).
+If you want to use it in your Apple HomeKit smart home, use [homebridge](https://www.homebridge.org) and the [homebridge-http-contact-sensor plugin](https://github.com/cyakimov/homebridge-http-contact-sensor).
 there, the config should look somehwat like this
 ```
 {
