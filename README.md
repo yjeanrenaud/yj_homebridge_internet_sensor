@@ -29,7 +29,7 @@ obviously, you may also supply the script with the port for the HTTP server to b
 
 # Apple HomeKit / Smart Home integration
 If you want to use it in your Apple HomeKit smart home, use [homebridge](https://www.homebridge.org) and the [homebridge-http-contact-sensor plugin](https://github.com/cyakimov/homebridge-http-contact-sensor).
-there, the config should look somehwat like this
+There, the config should look somehwat like this
 ```
 {
     "accessory": "ContactSensor",
@@ -39,8 +39,8 @@ there, the config should look somehwat like this
     "statusUrl": "http://192.168.1.3:99"
 }
 ```
-where the `status-url` obiously containts the IP address of the machine running this script and the port you speficied.
-That's it! It's registered as a contact sensor within HomeKit thereafter. Now you may use this to alert you on your iOS device when your home network is without internet connection via HomeKit.
+where the `status-url` obiously contains the IP address (or the hostname) of the machine running this script and the port you speficied.
+That's it! It's registered as a contact sensor within HomeKit thereafter. Therefore, you may use this to alert you on your iOS device when your home network is without connection to the internet via HomeKit. Of course, you may use this new contact sensor now also for other automatisations. But bear in mind, you may not trigger a Wifi socket to restart your router when your internet connection is down if it relies on the cloud.
 
 # todos
 - clean up the code
