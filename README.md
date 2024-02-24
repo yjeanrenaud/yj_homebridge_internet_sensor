@@ -1,5 +1,5 @@
 # yj_homebridge_internet_sensor
-A small python script to monitor the local internet connection and expose a HTTP server for homebridge and other smart home applications.
+A small python script to monitor the local internet connection and expose a HTTP server for [homebridge](https://github.com/homebridge/homebridge) and other smart home applications.
 It checks the status of your internet connection by pinging one or several hosts repeatedly.
 
 # prerequisites
