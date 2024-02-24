@@ -18,7 +18,7 @@ port = 99 #any port available on your host running this script
 you may also specify the port as argument to the script, e.g. 
 `python3 yj_homebridge_internet_sensor.py 99`
 # usage
-just runn the script by 
+just run the script by 
 `python3 yj_homebridge_internet_sensor.py` or, if you whish `chmod a+x`and then `.\yj_homebridge_internet_sensor.py`
 you may also use cron to run it automatically at system start in a `screen` (install screen first via `sudo apt-get update && sudo apt-get install screen`
 `$crontab -e`
