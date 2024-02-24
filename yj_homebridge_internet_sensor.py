@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 # yj_homebridge_internet_sensor
 # A small python script to monitor the local internet connection and expose a HTTP server for homebridge and other smart home applications
-#see https://github.com/yjeanrenaud/yj_homebridge_internet_sensor/
+# Please read  
+# https://github.com/yjeanrenaud/yj_homebridge_internet_sensor/
+# Yves Jeanrenaud 2024
+
 ##CONFIGURATION
 
 pairsOfHosts = [
